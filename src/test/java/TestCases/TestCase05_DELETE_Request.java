@@ -1,11 +1,12 @@
+package TestCases;
+
 import io.restassured.RestAssured;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import static org.hamcrest.Matchers.*;
 
 import static io.restassured.RestAssured.when;
 
-public class TestCase01_GET_Request {
+public class TestCase05_DELETE_Request {
 
     @BeforeClass
     public void setup() {
@@ -13,15 +14,15 @@ public class TestCase01_GET_Request {
     }
 
     @Test
-    public void get_request() {
-        String get_endpoint = "/api/users?page=2";
+    public void delete_request() {
+        String delete_endpoint = "/api/users/2";
 
         when().
-                get(get_endpoint).
+            delete(delete_endpoint).
         then().
-                assertThat().
-                statusCode(200).
-                body("data[0].id", equalTo(7));
+            statusCode(204).
+            log().all();
+
     }
 
 }
