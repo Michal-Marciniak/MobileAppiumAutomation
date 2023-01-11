@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Michal",
+      "last_name": "Rock"
+    },
+    {
+      "id": 2,
+      "first_name": "John",
+      "last_name": "Doe"
+    },
+    {
+      "id": 3,
+      "first_name": "Foo",
+      "last_name": "Bar"
+    }
+  ],
+  "hobbies": [
+    {
+      "id": 1,
+      "name": "swimming"
+    },
+    {
+      "id": 2,
+      "name": "programming"
+    },
+    {
+      "id": 3,
+      "name": "movies"
+    }
+  ]
+}
