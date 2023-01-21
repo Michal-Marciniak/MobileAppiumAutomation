@@ -11,7 +11,7 @@ public class FlutterChatApp_LoginTest extends BaseTestClass {
 
     private AppiumDriver appiumDriver;
     private LoginPage loginPage;
-    private static String username = "TestUser";
+    private static String username = "TestUser123";
 
     @BeforeTest
     public void setup() {
