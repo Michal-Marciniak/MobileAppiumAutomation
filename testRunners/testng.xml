@@ -3,7 +3,7 @@
 <suite name="Flutter Chat App" verbose="1" >
     <test name="Login Test" >
         <classes>
-            <class name="testCases.FlutterChatApp_LoginTest" />
+            <class name="testCases.FlutterChatApp_Tests" />
         </classes>
     </test>
 </suite>
